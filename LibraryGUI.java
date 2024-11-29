@@ -257,7 +257,6 @@ public class LibraryGUI extends JFrame {
         library.addMember(new Member("M001", "John Doe"));
         library.addMember(new Member("M002", "Jane Smith"));
 
-        // Update UI
         updateBooksTable();
         updateMemberComboBox();
         updateBookComboBox();
