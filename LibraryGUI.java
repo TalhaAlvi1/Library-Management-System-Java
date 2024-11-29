@@ -248,12 +248,11 @@ public class LibraryGUI extends JFrame {
     }
 
     private void initializeSampleData() {
-        // Add sample books
+
         library.addBook(new Book("B001", "The Great Gatsby", "F. Scott Fitzgerald"));
         library.addBook(new Book("B002", "To Kill a Mockingbird", "Harper Lee"));
         library.addBook(new Book("B003", "1984", "George Orwell"));
 
-        // Add sample members
         library.addMember(new Member("M001", "John Doe"));
         library.addMember(new Member("M002", "Jane Smith"));
 
