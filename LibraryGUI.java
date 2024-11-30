@@ -71,8 +71,7 @@ public class LibraryGUI extends JFrame {
 
     private JPanel createMembersPanel() {
         JPanel panel = new JPanel(new BorderLayout());
-        
-        // Form Panel
+
         JPanel formPanel = new JPanel(new GridLayout(3, 2, 5, 5));
         formPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         
