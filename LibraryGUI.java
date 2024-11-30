@@ -57,8 +57,7 @@ public class LibraryGUI extends JFrame {
         addBookButton.addActionListener(e -> addBook());
         formPanel.add(new JLabel(""));
         formPanel.add(addBookButton);
-        
-        // Table
+
         String[] columns = {"ID", "Title", "Author", "Available"};
         booksTableModel = new DefaultTableModel(columns, 0);
         booksTable = new JTable(booksTableModel);
