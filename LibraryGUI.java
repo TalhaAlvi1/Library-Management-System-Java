@@ -25,7 +25,6 @@ public class LibraryGUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Create tabs
         JTabbedPane tabbedPane = new JTabbedPane();
         tabbedPane.addTab("Books Management", createBooksPanel());
         tabbedPane.addTab("Members Management", createMembersPanel());
