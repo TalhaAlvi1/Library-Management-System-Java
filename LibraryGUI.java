@@ -135,8 +135,7 @@ public class LibraryGUI extends JFrame {
         library.addBook(book);
         updateBooksTable();
         updateBookComboBox();
-        
-        // Clear fields
+
         bookIdField.setText("");
         bookTitleField.setText("");
         bookAuthorField.setText("");
@@ -154,8 +153,7 @@ public class LibraryGUI extends JFrame {
         Member member = new Member(id, name);
         library.addMember(member);
         updateMemberComboBox();
-        
-        // Clear fields
+
         memberIdField.setText("");
         memberNameField.setText("");
     }
